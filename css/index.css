@@ -1,0 +1,63 @@
+
+.p1{
+    width: 50rem;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    border: solid 0.5rem  black;
+    border-radius: 1rem;
+    background-color: aliceblue;
+}
+.padre{
+
+    display: flex;
+    flex-direction: row;
+    justify-self: auto;
+    gap: 30rem;
+    border: solid 0.1rem  black;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+.btn1{
+    font-size: 3rem;
+    cursor: pointer;
+    border: solid 3rem solid black;
+
+
+  
+}
+.btn2{
+    font-size: 3rem;
+    cursor: pointer;
+    border: solid 3rem solid black;
+
+
+}
+.btn1 :hover, .btn2 :hover{
+    cursor: pointer;
+    border: solid 3rem solid black;
+}
+
+.rojo{
+
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    border: solid 3rem solid black;
+}
+.azul{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    border: solid 3rem solid black;
+}
+.cambio_color{
+   
+    width: 100%;
+    height: 90%;
+
+
+}
